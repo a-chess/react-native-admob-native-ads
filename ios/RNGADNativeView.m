@@ -2,6 +2,11 @@
 #import "RNGADMediaView.h"
 #import "RNNativeAdMobUtils.h"
 
+#import <React/RCTBridge.h>
+#import <React/RCTUIManager.h>
+#import <React/RCTEventDispatcher.h>
+#import <React/RCTUIManagerUtils.h>
+
 #ifdef MEDIATION_FACEBOOK
 @import FacebookAdapter;
 #endif
